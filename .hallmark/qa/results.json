@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "modes": [
+    "light",
+    "dark"
+  ],
+  "widths": [
+    320,
+    375,
+    768,
+    1280,
+    1440,
+    1920
+  ],
+  "axeViolations": 0,
+  "checks": [
+    "mobile menu",
+    "project disclosures",
+    "anchor targets",
+    "theme persistence",
+    "reduced motion",
+    "CV response",
+    "no-JavaScript content"
+  ],
+  "browserErrors": []
+}

@@ -1,0 +1,27 @@
+[
+ {
+  "shape": "Project Letter",
+  "theme": "cobalt",
+  "axes": "light/grotesk-sans/cool",
+  "hero": "Corridor",
+  "nav": "edge-aligned",
+  "footer": "statement",
+  "imagery": "typographic project plates",
+  "photos": [],
+  "entry": "new",
+  "fingerprint": "oversized left-aligned headline, real project index, ruled title plates, capabilities rows, career record, contact statement",
+  "sections": [
+   "hero",
+   "projects",
+   "about",
+   "skills",
+   "experience",
+   "contact"
+  ],
+  "signature": "ECONX project typography and graduation award",
+  "waived": [],
+  "prompt": "Next.js personal portfolio for software engineering, cybersecurity, cloud and AI; local only",
+  "date": "2026-11-01",
+  "mode": "build"
+ }
+]

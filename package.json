@@ -1,0 +1,28 @@
+{
+  "name": "ammar-alasfoor-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build --webpack",
+    "preview": "python3 -m http.server 3000 --bind 127.0.0.1 --directory out",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "@fontsource/familjen-grotesk": "^5.2.0",
+    "@fontsource/ibm-plex-sans": "^5.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "tailwindcss": "^4.1.0",
+    "@tailwindcss/postcss": "^4.1.0",
+    "puppeteer-core": "^24.0.0",
+    "@axe-core/puppeteer": "^4.10.0"
+  }
+}
