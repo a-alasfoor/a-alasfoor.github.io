@@ -22,9 +22,11 @@ npm run preview
 
 `next.config.ts` uses `output: 'export'`, trailing slashes, and unoptimized images. `out/` contains the generated website, including `.nojekyll`, the downloadable CV, metadata, social preview image, robots.txt, sitemap.xml, and a 404 page. No Node server is required in production. `next start` is not used for an exported site.
 
-## GitHub Pages preparation
+## Deploy to GitHub Pages
 
-The site targets the root of `https://a-alasfoor.github.io`, so it requires no base path. When you choose to publish, upload the **contents of `out/`** as the GitHub Pages artifact. Preserve its `.nojekyll` file so `_next/` assets are served. No automatic deployment workflow is enabled, and this project has not been deployed.
+In the repository settings, open **Pages** and select **GitHub Actions** as the publishing source. The **Deploy to GitHub Pages** workflow builds and publishes `out/` on pushes to `main`. You can also run it manually from the **Actions** tab by selecting `main`.
+
+The site targets the root of `https://a-alasfoor.github.io` and requires no base path. The deployment artifact includes `.nojekyll` and the `_next/` assets.
 
 If you move to a project repository or a custom domain, update `next.config.ts`, the metadata URL in `app/layout.tsx`, `app/sitemap.ts`, `app/robots.ts`, and structured data in `app/page.tsx` as appropriate before building.
 
